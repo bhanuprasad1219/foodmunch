@@ -1,0 +1,254 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    
+    
+}
+.explore-menu {
+    text-align: left;
+    margin-bottom: 50px;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    
+
+}
+.card {
+    display: flex;
+    float: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+    margin-bottom: 20px;
+    flex: 1 1 calc(25% - 20px); /* Adjusting for 4 cards per row with margin */
+    box-sizing: border-box;
+}
+.card img {
+    display: flex;
+    float: center;
+    width: 70%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+.card h3 {
+    margin: 15px 0 10px;
+    font-size: 18px;
+}
+.card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: bold;
+}
+.asd{
+    display: flex;
+    float: center;
+    background-color: lightgray;
+
+    
+    
+}
+.bha{
+
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.text{
+    justify-content: center;
+    padding: 20px;
+}
+
+
+.text button {
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.text button:hover {
+    background-color: #e6b800;
+}
+.poi{
+    display: flex;
+    float: left;
+}
+.payment{
+    display: flex;
+    float: left;
+    justify-content: left;
+}
+.delivery{
+    display: flex;
+
+    justify-content: center;
+}
+.iii{
+   padding-left: 2px;
+   margin: 1px;
+}
+.delivery button {
+
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.delivery button:hover {
+    background-color: #e6b800;
+}
+.paymentcards{ 
+    display: flex;
+   
+    padding: 5px 5px;
+    
+}
+.giftbox{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(160, 85, 15);
+    padding-top: 40px;
+    padding-bottom: 40px;
+   
+}
+.mava button{
+    padding: 10px 20px;
+    
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+/* .navbar-nav{
+    display: flex;
+    float: right;
+    font-size: 20px;
+    text-align: right;
+    padding-right: 100px;
+    border: 5px;
+    margin-top: 10px;
+    margin-left: 50px;
+    list-style-type: none;
+    justify-content: space-around;
+    
+} */
+.li{
+    padding-right: 100px;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .bg {
+    /* The image used */
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png');
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    float: center;
+    color: white;
+    text-align: center;
+    padding: 100px 40px 100px 40px;
+    font-size: 20px;
+    
+    
+
+  }
+  .top{
+    margin-top: 100px;
+    display: block;
+    float: center;
+    padding: 10px 20px;
+    
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    justify-content: center;
+    
+
+  }
+  .ram{
+    display: flex;
+    float: right;
+  }
+  .us{
+    padding: 5px 0px;
+  }
+  
+  .card{
+    margin: 10px;
+
+  }
+
+.vvv{
+    display: flex;
+}
+.social{
+    align-items: center;
+    text-align: center;
+    background-color: antiquewhite;
+    color: black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+.nnn{
+    align-items: center;
+    text-align: center;
+    background-color: #333;
+    color: black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+.ggg{
+    padding-left: 40px;
+    padding-top: 40px;
+    
+}
+.mko{
+    background-color: rgb(233, 225, 225);
+}
+.bbbb{
+    padding: 20px 30px 20px 30px;
+}
+
